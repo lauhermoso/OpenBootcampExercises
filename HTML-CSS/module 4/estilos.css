@@ -1,0 +1,35 @@
+h1{
+    color:aquamarine;
+}
+/* Esto es un comentario de css*/
+p {
+    color: blueviolet;
+    font-size: 16pt;
+}
+
+p#primera-noticia {
+    color: black;
+}
+
+p#segunda-noticia {
+    color: rgb(237, 47, 117);
+}
+
+span#primera-noticia {
+    color: rgb(30, 183, 35);
+}
+
+.encabezado {
+    font-size: 16pt;
+    text-transform:uppercase ;
+}
+
+*.warning {
+    color: crimson;
+}
+
+.autor, .fecha, .ubicacion, #segunda-noticia {
+text-decoration: underline;
+}
+
+/*el que está más abajo es el que se aplica si no hay ningún selector declarado*/

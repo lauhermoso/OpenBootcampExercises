@@ -1,0 +1,51 @@
+/*Estilos para colores*/
+.colores {
+    color:rgb(255, 71, 108)
+}
+
+.color-hexadecimal {
+    color:#FE5F55
+}
+
+.color-rgb {
+    color: rgb(138, 65, 174)
+}
+
+.color-rgba {
+    color: rgba(138, 65, 174, 0.5);
+}
+
+/*Fondos*/
+.fondo {
+    background-color: rgb(254, 178, 178);
+    background-image: url(https://marketplace.canva.com/EAD2962NKnQ/2/0/1600w/canva-rainbow-gradient-pink-and-purple-zoom-virtual-background-_Tcjok-d9b4.jpg);
+    background-position: right bottom;
+}
+.fondo-interno {
+    background-color: rgb(254, 178, 178);
+    background-image: url("assets/img-03.jpg");
+    background-position: left bottom;
+}
+
+/*Tamaños*/
+.ancho {
+    background-color: rgb(217, 255, 0);
+    width: 100px;
+}
+
+.alto {
+    background-color: rgb(75, 214, 214);
+    height: 200px;
+    width: 200px;
+}
+
+.tarjeta {
+    border-style: solid;
+    border-color: rgb(150, 150, 150);
+    border-width: 1px;
+   /* border-top: none; */
+    padding: 10px 20px;
+    /*padding: 10px 20px 30px 40px;*/
+    margin: 10px;
+    /* margin: 10px 20px 30px 40px; */
+}
