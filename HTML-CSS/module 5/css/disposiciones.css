@@ -1,0 +1,25 @@
+.div-1, .div-2 {
+    background-color: cadetblue;
+    /* display: block; por defecto - div tienen display block */
+}
+
+.span-1 {
+    background-color: lavender;
+    /* display: inline; por defecto - dspan isplay inline */
+    /* height: 500px */
+    float: right;
+}  
+
+.span-2 {
+    background-color: lavender;
+    /* display: inline; por defecto - dspan isplay inline */
+    /* height: 500px */
+    float: left;
+}  
+
+.img {
+    width: 50px;
+    height: 50px;
+    /* display: inline-block; */
+}
+
