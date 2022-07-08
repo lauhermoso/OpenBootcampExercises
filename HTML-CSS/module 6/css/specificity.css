@@ -1,0 +1,21 @@
+/* (0,2,0) jerarquía de especificidad*/
+/* (0,1,0) */
+/* (0,0,1) */
+/* (0,0,0) */
+
+h1#h1-id.h1-class {
+    color: rgb(236, 105, 201);
+}
+
+h1 {
+    color: blueviolet;
+}
+
+.h1-class {
+    color: rgb(101, 203, 206) !important;
+    /* evitar en la medida de lo posible el !important */
+}
+
+p {
+    color: crimson;
+}

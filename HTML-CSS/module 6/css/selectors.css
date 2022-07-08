@@ -1,0 +1,23 @@
+/* .content p {
+    color: teal;
+} */
+
+/* .content #content-button {
+    background-color: rgb(48, 60, 107);
+    color: aliceblue;
+    border-radius: 10px;
+    border: 0px;
+    padding: 10px;
+} */
+
+body section.main .content p {
+    color: blue;
+}
+
+.content #content-button {
+    background-color: teal;
+    border-radius: 25px;
+    border: 0px;
+    padding: 10px;
+    padding-inline: 20px;
+}

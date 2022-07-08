@@ -1,0 +1,52 @@
+.container {
+    width: 300px;
+    height: 100px;
+    background-color: aquamarine;
+}
+
+div {
+    background-color: rgb(208, 208, 244);
+}
+
+span.quote {
+    font-style: italic;
+}
+
+span.quote::before {
+    content: '<< ';
+    font-size: xx-small;
+}
+
+span.quote::after {
+    content: ' >>';
+    font-size: xx-small;
+}
+
+.book {
+    background-color: bisque;
+    padding: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.book p::first-letter {
+    font-size: xx-large;
+}
+
+.book p::first-line {
+    color:white
+}
+
+.book p::selection {
+    background-color: rgb(9, 12, 48);
+    color: lime;
+}
+
+.list ul li::marker {
+    color: rgb(23, 169, 174);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.list ol li::marker {
+    color: rgb(247, 95, 138);
+    font-family: Arial, Helvetica, sans-serif;
+}
