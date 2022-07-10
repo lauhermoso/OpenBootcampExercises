@@ -1,0 +1,187 @@
+@import url("https://fonts.googleapis.com/css2?family=Charis+SIL:ital,wght@0,400;0,700;1,400;1,700&family=Ubuntu:wght@300;400;500;700&display=swap");
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 16px;
+  line-height: 1.5;
+  background-color: #161717;
+  color: #fff;
+}
+
+body {
+  margin: 0;
+  font-family: Ubuntu, sans-serif;
+}
+
+p {
+  margin-top: 0;
+  margin-bottom: 1.5rem;
+}
+
+input,
+button {
+  font-size: inherit;
+  font-family: inherit;
+}
+
+h1,
+h2,
+h3 {
+  font-family: Ubuntu, sans-serif;
+  line-height: 1.125;
+}
+
+.page-wrapper {
+  max-width: 450px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 36px;
+}
+
+.title {
+  font-size: 24px;
+  margin-top: 48px;
+  margin-bottom: 36px;
+  font-weight: 400;
+  text-align: center;
+}
+
+.form-group {
+  margin-bottom: 36px;
+  width: 100%;
+}
+
+.form-label {
+  display: inline-block;
+  margin-bottom: 8px;
+}
+
+.form-control {
+  display: block;
+  width: 100%;
+  background-color: #212121;
+  border: 1px solid #212121;
+  border-radius: 4px;
+  padding: 8px 16px;
+  color: #fff;
+  transition: all 200ms;
+}
+
+.form-control:hover,
+.form-control:focus {
+  outline: 0;
+  background-color: #454045;
+  border-color: #454045;
+  box-shadow: 0 0 4px #e585d8;
+}
+
+.form-control::placeholder {
+  color: #eee;
+}
+
+.btn {
+  display: block;
+  width: 100%;
+  padding: 8px 16px;
+  color: #fff;
+  background-color: #ea4c89;
+  border: 1px solid #ea4c89;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  opacity: 0.9;
+}
+
+.row {
+  display: flex;
+  gap: 24px;
+}
+
+.separator {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  width: 100%;
+  margin-bottom: 36px;
+}
+
+.separator hr {
+  flex-grow: 1;
+  border: none;
+  border-top: 1px solid #ccc;
+}
+
+.separator span {
+  color: #8b8b8b;
+}
+
+.social-login {
+  margin-bottom: 24px;
+}
+
+.google-btn {
+  background-color: #1a73e8;
+  color: white;
+  border: 1px #1a73e8;
+  border-radius: 3px;
+  display: flex;
+  align-items: center;
+  height: 40px;
+  padding: 2px;
+  cursor: pointer;
+}
+
+.google-btn:hover {
+  opacity: 0.75;
+}
+
+.google-btn picture {
+  width: 36px;
+  height: 36px;
+  background-color: white;
+  border-radius: 2px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.google-btn picture img {
+  width: 75%;
+}
+
+.google-btn span {
+  color: white;
+  font-weight: 500;
+  padding: 15px;
+}
+
+.twitter-btn {
+  color: #bbb;
+  background-color: #eee;
+  border: none;
+  width: 40px;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.twitter-btn:hover {
+  background-color: #ddd;
+}
+
+.twitter-btn picture {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.twitter-btn picture img {
+  width: 75%;
+}

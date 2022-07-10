@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ejercicio Formulario</title>
+    <link rel="stylesheet" href="ob-exercise-7.css" />
+  </head>
+  <body>
+    <main class="page-wrapper">
+      <h1 class="title">Sign up to Dribbble</h1>
+
+      <section class="social-login row">
+        <button class="google-btn">
+          <picture>
+            <img src="../img/google-logo-9824.png" alt="" />
+          </picture>
+          <span>Registrarse con Google</span>
+        </button>
+        <button class="twitter-btn">
+          <picture>
+            <img src="../img/Twitter-logo.svg.png" alt="" />
+          </picture>
+        </button>
+      </section>
+
+      <div class="separator">
+        <hr />
+        <span>0r</span>
+        <hr />
+      </div>
+
+      <form action="">
+        <div class="row">
+          <p class="form-group">
+            <label class="form-label" for="name">Name</label>
+            <input class="form-control" type="text" id="name" required />
+          </p>
+
+          <p class="form-group">
+            <label class="form-label" for="username">Username</label>
+            <input class="form-control" type="text" id="username" required />
+          </p>
+        </div>
+
+        <p class="form-group">
+          <label class="form-label" for="email">Email</label>
+          <input class="form-control" type="email" id="email" required />
+        </p>
+
+        <p class="form-group">
+          <label class="form-label" for="password">Password</label>
+          <input class="form-control" type="password" required />
+        </p>
+
+        <p class="form-group">
+          <label for="checkbox">
+            <input type="checkbox" required /> Acepto las condiciones y los
+            terminos legales
+          </label>
+        </p>
+
+        <button class="btn" type="submit">Crear cuenta</button>
+      </form>
+    </main>
+  </body>
+</html>
