@@ -1,0 +1,38 @@
+.father {
+  width: 400px;
+  height: 400px;
+  background-color: aqua;
+}
+
+.son {
+  width: 50%;
+  height: 50%;
+  background-color: rgb(238, 201, 211);
+  /* transition: transform 1s ease-in 2s; */
+  animation: vertaling 4s ease-in-out infinite forwards alternate-reverse;
+}
+
+.father:hover .son {
+  /* transform: translatex(100%);
+  background-color: rgb(127, 170, 255); */
+  animation-play-state: paused;
+}
+
+@keyframes vertaling {
+  0% {
+    transform: translateX(0%) translateY(0%);
+  }
+  25% {
+    transform: translateX(100%) translateY(0%);
+  }
+  50% {
+    transform: translateX(100%) translateY(100%);
+  }
+  75% {
+    transform: translateX(0%) translateY(100%);
+  }
+  100% {
+    background-color: blanchedalmond;
+    transform: translateX(0%) translateY(0%);
+  }
+}
