@@ -1,0 +1,18 @@
+:root {
+  --primary-color: rgb(0, 225, 255);
+  --primary-width: 250px;
+}
+
+.title {
+  color: var(--primary-color);
+}
+
+.footer {
+  color: var(--primary-color);
+}
+
+.content {
+  background-color: rgb(241, 230, 247);
+  padding: 1rem;
+  max-width: var(--primary-width);
+}

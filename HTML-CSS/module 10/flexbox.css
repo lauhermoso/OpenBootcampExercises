@@ -1,0 +1,28 @@
+/* https://codepen.io/enxaneta/full/adLPwv */
+
+.content {
+  background-color: beige;
+  padding: 0.5rem;
+  display: flex;
+  gap: 0.5rem;
+  min-height: 5rem;
+  /* Eje principal */
+  justify-content: space-evenly;
+
+  /* Eje secundario */
+  align-items: center;
+
+  /* flex-direction: column; */
+
+  flex-wrap: wrap;
+}
+
+.item {
+  background-color: aqua;
+  padding: 0.25rem;
+  width: 10rem;
+}
+
+.item2 {
+  align-self: stretch;
+}

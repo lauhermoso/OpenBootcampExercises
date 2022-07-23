@@ -1,0 +1,45 @@
+h1 {
+  color: cadetblue;
+  font-size: 4rem;
+}
+
+p {
+  color: rgb(121, 61, 218);
+  font-size: 2rem;
+}
+
+/* @media all and (max-width: 576px) {
+  h1 {
+    color: rgb(242, 122, 53);
+  }
+} */
+
+@media (max-width: 576px) {
+  h1 {
+    color: rgb(242, 122, 53);
+  }
+}
+
+@media (min-width: 576px) {
+  h1 {
+    color: aqua;
+  }
+}
+
+@media (min-width: 995px) {
+  h1 {
+    color: rgb(222, 70, 207);
+  }
+}
+
+@media (orientation: landscape) and (min-height: 400px) {
+  p {
+    color: rgb(205, 231, 36);
+  }
+}
+
+@media (min-height: 300px), (min-width: 1100px) {
+  h1 {
+    color: rgb(240, 129, 168);
+  }
+}
