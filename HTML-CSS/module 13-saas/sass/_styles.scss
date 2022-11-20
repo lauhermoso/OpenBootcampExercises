@@ -1,0 +1,38 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+.container {
+  width: 100%;
+  background-color: azure;
+  min-height: 100vh;
+  padding: 0.5rem;
+}
+
+h1 {
+  margin: 0;
+  @include formato-texto();
+}
+
+p {
+  @include formato-texto(#2fc3ca);
+}
+
+.list {
+  width: 10rem;
+  background-color: rgb(179, 254, 254);
+  padding: 0.5rem;
+
+  ul {
+    margin: 0 0.5rem;
+
+    li {
+      list-style: none;
+      color: grey;
+
+      &:hover {
+        color: rgb(37, 56, 141);
+      }
+    }
+  }
+}
